@@ -6,7 +6,7 @@ Var
 
 Inicio
      msg <- "Ola Mundo!"
-     escreval(msg)
+     escreval(msg, "Estou livre da maldicao")
 
 
 Fimalgoritmo
