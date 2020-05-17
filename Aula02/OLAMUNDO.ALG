@@ -4,8 +4,12 @@ Var
 
 
 Inicio
-escreval ("Olá Mundo!")
-escreva ("Estou livre da maldição!")
+escreval ("Ola Mundo!")
+escreval ("Estou livre da maldicao!")
+escreva ("O Comando escreva: ")
+escreva ("Escreve sem mudar de linha!")
+escreval ("")
+
 
 
 Fimalgoritmo
