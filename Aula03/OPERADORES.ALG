@@ -12,7 +12,7 @@ Inicio
     escreval ("Subtracao ",a-b)
     escreval ("Multiplicacao ",a*b)
     escreval ("Divisao ",a/b)
-    escreval ("Divisão inteira ",a\b)
+    escreval ("Divisao inteira ",a\b)
     escreval ("Exponenciacao ",a^b)
     escreval ("Resto da divisao ",a%b)
 
