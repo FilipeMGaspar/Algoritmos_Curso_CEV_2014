@@ -12,5 +12,4 @@ Inicio
     media <- (num1 + num2) / 2
     escreva("A media entre ", num1, " e", num2, " e igual a: ", media)
 
-
 Fimalgoritmo
