@@ -5,7 +5,7 @@ Var
 
 
 Inicio
-     msg <- "ola Mundo!";
+     msg <- "Ola Mundo!"
      escreval(msg)
 
 
