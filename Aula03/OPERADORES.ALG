@@ -8,13 +8,19 @@ Var
 Inicio
       a <- 5
       b <- 2
-    escreva ("Soma ",a+b)
-    escreva ("Subtracao ",a-b)
-    escreva ("Multiplicacao ",a*b)
-    escreva ("Divisao ",a/b)
-    escreva ("Divisão inteira ",a\b)
-    escreva ("Exponenciacao ",a^b)
-    escreva ("Resto da divisao ",a%b)
+    escreval ("Soma ",a+b)
+    escreval ("Subtracao ",a-b)
+    escreval ("Multiplicacao ",a*b)
+    escreval ("Divisao ",a/b)
+    escreval ("Divisão inteira ",a\b)
+    escreval ("Exponenciacao ",a^b)
+    escreval ("Resto da divisao ",a%b)
 
+    escreval()
+    escreval ("Ordem de Precedencia")
+    escreval("() Parenteses")
+    escreval(" ^ Exponenciacao")
+    escreval("*  / Multiplicacao e divisao")
+    escreval("+  - Adicao   e Subtracao")
 
 Fimalgoritmo
