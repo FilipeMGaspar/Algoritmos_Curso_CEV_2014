@@ -8,13 +8,16 @@ Var
 Inicio
       a <- 5
       b <- 2
-    escreval ("Soma ",a+b)
-    escreval ("Subtracao ",a-b)
-    escreval ("Multiplicacao ",a*b)
-    escreval ("Divisao ",a/b)
-    escreval ("Divisao inteira ",a\b)
-    escreval ("Exponenciacao ",a^b)
-    escreval ("Resto da divisao ",a%b)
+
+    escreval("Para os valores de ", a, " e ", b, " a:")
+    escreval()
+    escreval (">Soma ",a+b)
+    escreval (">Subtracao ",a-b)
+    escreval (">Multiplicacao ",a*b)
+    escreval (">Divisao ",a/b)
+    escreval (">Divisao inteira ",a\b)
+    escreval (">Exponenciacao ",a^b)
+    escreval (">Resto da divisao ",a%b)
 
     escreval()
     escreval ("Ordem de Precedencia")
