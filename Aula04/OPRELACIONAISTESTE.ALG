@@ -14,9 +14,9 @@ Inicio
    
    
    escreval("Ordem de precedebcia")
-   escreval("1º - Lugar -> Aritméticos")
-   escreval("2º - lugar -> Relacionais executados da esquerda para a direita")
-   escreval("3º Lugar -> Lógicos")
+   escreval("1 - Lugar -> Aritméticos")
+   escreval("2 - lugar -> Relacionais executados da esquerda para a direita")
+   escreval("3 Lugar -> Logicos")
    escreval("               E")
    escreval("              OU")
    escreval("             NAO")
