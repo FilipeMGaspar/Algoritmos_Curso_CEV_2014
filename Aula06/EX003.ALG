@@ -5,10 +5,10 @@ Var
 
 
 Inicio
-   escreva("Qual é temperatura atual em °F")
+   escreva("Qual e temperatura aqui? ")
    leia(temp_f)
-   temp_c=(temp_f-32)/1.8
-   escreval("No Brasil estariam ",temp_c,"ºC")
+   temp_c <- (temp_f-32)/1.8
+   escreval("No Brasil estariam ",temp_c:4:1,"ºC")
 
 
 Fimalgoritmo
