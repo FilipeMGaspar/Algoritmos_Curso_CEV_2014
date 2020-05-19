@@ -5,10 +5,10 @@ Var
 
 
 Inicio
-   escreva("Quantos Reiais eu tenho: ")
+   escreva("Quantos Reiais eu tenho R$: ")
    leia(reais)
    dolar<-reais/2.22
-   escreva("Eu tenho ", dolar)
+   escreva("Posso ter Us", dolar,"$")
 
 
 Fimalgoritmo
