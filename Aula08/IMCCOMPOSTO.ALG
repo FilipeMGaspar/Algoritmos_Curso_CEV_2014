@@ -21,22 +21,22 @@ Inicio
     escreval(" IMC: ", imc:4:2)
     escreva(" Situacao: ")
 
-    se (imc<17)entao
+    se (imc < 17)entao
         escreva(" Muito Abaixo do peso")
     senao
-      se (imc<18.5)entao
+      se (imc < 18.5)entao
            escreva(" Abaixo do peso")
       senao
-         se (imc<25)entao
+         se (imc < 25)entao
               escreva(" Peso ideal")
          senao
-           se(imc<30)entao
+           se(imc < 30)entao
               escreva(" Sobrepeso")
            senao
-              se(imc<35)entao
+              se(imc < 35)entao
                 escreva(" Obesidade")
               senao
-                se(imc<40)entao
+                se(imc < 40)entao
                    escreva(" Obesidade Severa")
                 senao
                    escreva(" Obesidade Morbida")
