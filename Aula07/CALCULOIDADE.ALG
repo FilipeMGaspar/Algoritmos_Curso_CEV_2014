@@ -14,7 +14,7 @@ Inicio
    se (idade>=21) entao
       escreval(" e ja atingido a maioridade.")
    senao
-      escreval(" e ainda é menor de idade.")
+      escreval(" e ainda e menor de idade.")
    fimse
 
 
