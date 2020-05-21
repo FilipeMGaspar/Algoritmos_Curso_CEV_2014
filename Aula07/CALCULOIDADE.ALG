@@ -10,9 +10,9 @@ Inicio
    escreva("Em que ano voce nasceu? ")
    leia(anoNasc)
    idade <- anoAtual - anoNasc
-   escreva("Em ", anoAtual, " você tera ", idade, " anos")
+   escreva("Em ", anoAtual, " voce tera ", idade, " anos")
    se (idade>=21) entao
-      escreval(" e já atingido a maioridade")
+      escreval(" e ja atingido a maioridade")
    fimse
 
 
