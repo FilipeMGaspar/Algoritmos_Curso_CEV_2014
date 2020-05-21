@@ -11,10 +11,10 @@ Inicio
       media <- (nota1+nota2)/2
       escreval("A media do aluno foi de ",media:4:2)
       escreva("   Aluno: ")
-      se (media>=7)entao
+      se (media >= 7)entao
          escreva(" Aprovado")
       senao
-           se (media>=5)entao
+           se (media >= 5)entao
               escreva(" Em Recuperacao")
            senao
               escreva(" Reprovado")
