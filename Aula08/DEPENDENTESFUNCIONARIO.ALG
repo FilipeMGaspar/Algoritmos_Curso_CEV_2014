@@ -6,7 +6,7 @@ Var
    nDepend: inteiro
 
 Inicio
-   escreva("Qual o nome do funcionario?")
+   escreva("Qual o nome do funcionario? ")
    leia(nome)
    escreva("Qual o salario do funcionario R$")
    leia(salario)
@@ -23,5 +23,8 @@ Inicio
         outrocaso
            novSal <-  salario + (salario*18/100)
    fimescolha
+      escreval()
+      escreval("O novo salario de ", nome," Com ",nDepend, " dependentes.")
+      escreval("Sera de: ", novSal)
 
 Fimalgoritmo
