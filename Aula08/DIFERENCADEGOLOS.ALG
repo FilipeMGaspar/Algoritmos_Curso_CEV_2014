@@ -26,20 +26,19 @@ Inicio
       fimse
       escreval()
       escreval("Diferenca de golos", difGol)
-//Partida de futebol
-//
+      escreval()
+      escreva("Resultado: ")
+      escolha difGol
+         caso 0
+           escreva("EMPATE")
+          caso 1, 2, 3
+            escreva("Jogo normal")
+          outrocaso
+            escreva("Goleada")
+      
+      fimescolha
 
-// Golos da equipa A
-//
-//Goloe da equipa B
-//
-// empate 0 - 0  1-1 2-2 3-3
-
-// jogo normal 1-0 2-0 3-1 diferenca até 3 golos
-//
-//Goleada >= 4 Golos de diferença
-
-
+      escreval()
 
 
 Fimalgoritmo
