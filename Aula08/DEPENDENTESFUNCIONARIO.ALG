@@ -25,6 +25,6 @@ Inicio
    fimescolha
       escreval()
       escreval("O novo salario de ", nome," Com ",nDepend, " dependentes.")
-      escreval("Sera de: ", novSal)
+      escreval("Sera de R$",novSal:7:2)
 
 Fimalgoritmo
