@@ -5,9 +5,6 @@ Var
 
 
 Inicio
-// Ano atual
-// ano de nascimento
-// calcula a idade e verifica se pode tirar a carta de conducao idade >=18
 
    escreval("--___--__--__--__--__--__")
    escreval()
@@ -24,15 +21,13 @@ Inicio
    escreval()
    escreval("##### STATUS #####")
    escreval("   Idade: ", idade)
-   escreval(": ")
-   
+   escreva("   Situacao: ")
+   se (idade>=18) entao
+      escreva("ja pode tirar a carta de conducao")
+   senao
+      escreva("ainda nao pode Tirar a carta de conducao")
+   fimse
+   escreval()
 
-//------------------------
-//Departamento de transito
-//------------------------
-
-//  -------- status -------
-//Idade : anos
-//Apto ou inapto a tirar a carta
 
 Fimalgoritmo
