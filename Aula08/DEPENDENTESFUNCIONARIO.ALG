@@ -8,13 +8,13 @@ Var
 Inicio
    escreva("Qual o nome do funcionario?")
    leia(nome)
-   escreva("Qual o salario do funcionario")
+   escreva("Qual o salario do funcionario R$")
    leia(salario)
    escreva("Qual o numero de dependentes?")
    leia(nDepend)
 
    escolha nDepend
-        caso 0:
+        caso 0
           novSal <-  salario + (salario*5/100)
         caso 1 ,2, 3
           novSal <-  salario + (salario*10/100)
