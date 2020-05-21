@@ -1,11 +1,7 @@
 Algoritmo "aptoADirigir"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 21/05/2020
+
 Var
-// Seção de Declarações das variáveis 
+ anoAtual, AnoNasc, idade: inteiro
 
 
 Inicio
@@ -13,6 +9,23 @@ Inicio
 // ano de nascimento
 // calcula a idade e verifica se pode tirar a carta de conducao idade >=18
 
+   escreval("--___--__--__--__--__--__")
+   escreval()
+   escreval("DEPARTAMENTO DE TRANSITO")
+   escreval()
+   escreval("__--__--__--__--__--__--_-")
+   escreval()
+   escreval()
+   escreva("Inque por favor o ano atual: ")
+   leia(anoAtual)
+   escreva("indique Por favor o seu ano de nascimento: ")
+   leia(AnoNasc)
+   idade <- anoAtual-AnoNasc
+   escreval()
+   escreval("##### STATUS #####")
+   escreval("   Idade: ", idade)
+   escreval(": ")
+   
 
 //------------------------
 //Departamento de transito
