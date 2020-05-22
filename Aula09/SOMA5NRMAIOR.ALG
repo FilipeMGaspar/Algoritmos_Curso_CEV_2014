@@ -1,7 +1,7 @@
-Algoritmo "Soma5NrMaior"
+Algoritmo "Soma5NrMaioreMenor"
 
 Var
-  contador, num, soma, maior:inteiro
+  contador, num, soma, maior, menor:inteiro
 
 
 Inicio
@@ -11,9 +11,12 @@ Inicio
    enquanto (contador<=5) faca
       escreva("Digite o ",contador,"o. valor: ")
       leia(num)
-      se (num> maior) entao
+      se (num > maior) entao
          maior <- num
       fimse
+     // se (num < menor)entao
+       //  menor <- num
+      //fimse
       soma <- soma + num
       contador<-contador+1
    fimenquanto
