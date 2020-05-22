@@ -5,7 +5,7 @@ Var
 
 
 Inicio
-    escreva("Deseja contar até quanto? ")
+    escreva("Deseja contar ate quanto? ")
     leia(valor)
     contador <-0
     enquanto (contador <= valor) faca
