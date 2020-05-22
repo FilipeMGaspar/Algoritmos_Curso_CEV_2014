@@ -11,6 +11,8 @@ Inicio
          escreval(contador)
          contador <- contador + 1
       fimenquanto
+      escreval()
+      escreval("Terminei de contar")
 
 
 Fimalgoritmo
