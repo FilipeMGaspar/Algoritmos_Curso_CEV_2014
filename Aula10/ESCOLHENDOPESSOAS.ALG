@@ -32,8 +32,19 @@ Inicio
         escreval("> [4] Ruivo")
         escreva("Selecione uma opcao: ")
         leia(selCor)
-      ate((selCor = 1) ou (selCor = 2) ou (selCor = 3) ou (selCor = 4) )
-      
+      ate((selCor = 1) ou (selCor = 2) ou (selCor = 3) ou (selCor = 4))
+     escreva(selCor)
+      escolha(selCor)
+          caso1
+             corCabelo <- "Preto"
+          caso2
+             corCabelo <- "Castanho"
+          caso3
+             corCabelo <- "Loiro"
+          caso4
+            corCabelo <- "Ruivo"
+        fimescolha
+      escreva("Voce e do sexo ", sexo, " tem ", idade, " anos. Seu cabelo e ", corCabelo)
    
    //deseja continuar [S/N]
    
