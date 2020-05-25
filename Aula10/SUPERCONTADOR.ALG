@@ -32,14 +32,20 @@ Inicio
                  escreva(conta, " - ")
                  conta <- conta +1
                ate(conta>10)
-               escreva(" FIM")
+               escreva("FIM")
+               escreval()
                
             caso 2
                limpatela
                escreval("Contagem de 10 até 1: ")
                conta <- 10
+               repita
+                 escreva(Conta, " - ")
+                 conta <- conta -1
+               ate(conta < 1)
+               escreva("FIM")
+               escreval()
                
-            
             outrocaso
                escreval("Opcao invalida.")
           fimescolha
