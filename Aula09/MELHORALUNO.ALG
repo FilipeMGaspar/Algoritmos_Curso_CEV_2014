@@ -1,15 +1,28 @@
 Algoritmo "melhoraluno"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 22/05/2020
+
 Var
-// Seção de Declarações das variáveis 
-
-
+  nome : caracter
+  numAlunos, conta : inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+      conta <- 1
+      escreval()
+      escreval("..: Escola Limpa Mato :..")
+      escreval()
+      escreva("Quantos alunos tem a turma: ")
+      leia(numAlunos)
+
+      enquanto (conta <= numAlunos) faca
+         escreval()
+         escreval("Aluno ",conta)
+         escreval("--------------")
+         escreval()
+         escreva("> Nome: ")
+         leia(nome)
+         escreva("> Nota: ")
+         leia()
+         conta <- conta + 1
+      fimenquanto
+
 //
 //Quantidade de alunos
 
