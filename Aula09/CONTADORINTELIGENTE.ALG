@@ -1,15 +1,34 @@
 Algoritmo "contadorinteligente"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 22/05/2020
+
 Var
-// Seção de Declarações das variáveis 
+ conta, nrIni, nrFin : inteiro
 
 
 Inicio
-// SContagem inteligente contagem crescente e decrescente
 
+   escreval()
+   escreval("CONTAGEM INTELIGENTE")
+   escreval("--------------------")
+   escreval()
+   escreva("INICIA: ")
+   leia(nrIni)
+   escreva("FINALIZA:")
+   leia(nrFin)
+   se (nrFin > nrIni) entao
+     conta <- nrIni
+     enquanto (conta <= nrFin) faca
+        escreva(conta, " .. ")
+        conta <- conta + 1
+     fimenquanto
+   senao
+     se (nrIni > nrFin) entao
+       conta <-  nrIni
+        enquanto (conta >= nrFin) faca
+            escreva(conta, " - ")
+            conta <- conta - 1
+        fimenquanto
+     fimse
+   fimse
+   escreva("FIM")
 
 Fimalgoritmo
