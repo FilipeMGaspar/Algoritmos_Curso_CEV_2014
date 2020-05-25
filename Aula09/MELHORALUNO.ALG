@@ -31,8 +31,9 @@ Inicio
       fimenquanto
       escreval()
       escreval("A melhor nota da Turma: ")
+      escreval()
       escreval(" ...: Nome: ",NomeDmAluno)
-      escreva(" ...: Nota: ",maiorNota," valores")
+      escreva(" ...: Nota:",maiorNota," valores")
       escreval()
 
 Fimalgoritmo
