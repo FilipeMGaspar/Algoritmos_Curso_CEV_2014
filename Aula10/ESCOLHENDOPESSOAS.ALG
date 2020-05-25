@@ -3,7 +3,7 @@ Algoritmo "escolhendopessoas"
 Var
   sexo, corCabelo, resp : caracter
   idade, selCor : inteiro
-  contHom :inteiro
+  contHom, contFem :inteiro
 
 
 Inicio
@@ -57,6 +57,12 @@ Inicio
            fimse
          fimse
       fimse
+      
+      se ((idade > 25) e (idade < 30))entao
+        se((sexo = "f") ou (sexo="F"))entao
+           contFem <- contFem +1
+        fimse
+      fimse
    escreval()
    escreva("Deseja continuar [S/N] ")
    leia(resp)
@@ -65,10 +71,9 @@ Inicio
  escreval()
  escreval("Homens com mais de 18 anos e cabelo castanho: ", contHom)
  escreval()
- escreval("Mulheres entre 25 e 30 anos loiras: ")
+ escreval("Mulheres entre 25 e 30 anos loiras: ", contFem)
    
-//Mostra
-//   Homens com mais de 18 anos e  cabelo castanho
+
 
 // Mulheres entre 25 e 30 anos loiras
 
