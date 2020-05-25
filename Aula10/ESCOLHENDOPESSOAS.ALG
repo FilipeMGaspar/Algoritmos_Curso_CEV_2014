@@ -60,6 +60,7 @@ Inicio
       
       se ((idade > 25) e (idade < 30))entao
         se((sexo = "f") ou (sexo="F"))entao
+          se (corCabelo = "Loiro")entao
            contFem <- contFem +1
         fimse
       fimse
@@ -74,7 +75,5 @@ Inicio
  escreval("Mulheres entre 25 e 30 anos loiras: ", contFem)
    
 
-
-// Mulheres entre 25 e 30 anos loiras
 
 Fimalgoritmo
