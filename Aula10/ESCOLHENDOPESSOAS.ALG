@@ -3,10 +3,11 @@ Algoritmo "escolhendopessoas"
 Var
   sexo, corCabelo, resp : caracter
   idade, selCor : inteiro
+  contHom :inteiro
 
 
 Inicio
-
+      contHom <- 0
  repita
   limpatela
       escreval()
@@ -48,14 +49,22 @@ Inicio
             fimse
          fimse
       fimse
-      
+
+      se(idade>=18)entao
+         se((sexo = "m") ou (sexo="M"))entao
+           se (corCabelo = "Castanho")entao
+              contHom <- contHom + 1
+           fimse
+         fimse
+      fimse
    escreval()
    escreva("Deseja continuar [S/N] ")
    leia(resp)
  ate((resp = "n") ou (resp = "N"))
 
  escreval()
- escreval("Homens com mais de 18 anos e cabelo castanho : ")
+ escreval("Homens com mais de 18 anos e cabelo castanho: ", contHom)
+ escreval()
  escreval("Mulheres entre 25 e 30 anos loiras: ")
    
 //Mostra
