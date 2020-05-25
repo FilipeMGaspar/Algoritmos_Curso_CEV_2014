@@ -61,7 +61,8 @@ Inicio
       se ((idade > 25) e (idade < 30))entao
         se((sexo = "f") ou (sexo="F"))entao
           se (corCabelo = "Loiro")entao
-           contFem <- contFem +1
+             contFem <- contFem +1
+          fimse
         fimse
       fimse
    escreval()
@@ -70,9 +71,9 @@ Inicio
  ate((resp = "n") ou (resp = "N"))
 
  escreval()
- escreval("Homens com mais de 18 anos e cabelo castanho: ", contHom)
+ escreval("> Homens com mais de 18 anos e cabelo castanho: ", contHom)
  escreval()
- escreval("Mulheres entre 25 e 30 anos loiras: ", contFem)
+ escreval("> Mulheres entre 25 e 30 anos loiras: ", contFem)
    
 
 
