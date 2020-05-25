@@ -4,10 +4,7 @@ Var
    esc, conta : inteiro
 
 Inicio
-    //exebir um menu
-    // [1] de 1 a 10
-    // [2] de 10 a 1
-    // [3] sair
+
      repita
           escreval()
           escreval(" Super Contadora ")
