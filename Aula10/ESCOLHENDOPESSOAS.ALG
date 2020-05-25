@@ -12,35 +12,28 @@ Inicio
       escreval("|  SELECTOR DE PESSOAS  |")
       escreval("*************************")
       escreval()
+
       repita
-        limpatela
         escreva("Qual sexo [M/F] ")
         leia(sexo)
       ate((sexo = "M") ou (sexo = "F") ou (sexo = "m") ou (sexo = "f"))
 
       repita
-        limpatela
         escreva("Qual a idade? ")
         leia(idade)
       ate(idade>0)
       
-      escreval("Cor do cabelo:")
-      escreval("--------------")
-      escreval("> [1] Preto")
-      escreval("> [2] Castanho")
-      escreval("> [3] Loiro")
-      escreval("> [4] Ruivo")
-      escreva("Selecione uma opcao: ")
-      leia(selCor)
+      repita
+        escreval("Cor do cabelo:")
+        escreval("--------------")
+        escreval("> [1] Preto")
+        escreval("> [2] Castanho")
+        escreval("> [3] Loiro")
+        escreval("> [4] Ruivo")
+        escreva("Selecione uma opcao: ")
+        leia(selCor)
+      ate((selCor = 1) ou (selCor = 2) ou (selCor = 3) ou (selCor = 4) )
       
-   //selector de pessoas
-   // Qual sexo [M/F]
-   //Qual a idade
-   //cor do cabelo?
-   //[1] Preto
-   //[2] Castanho
-   //[3] loiro
-   //[4] Ruivo
    
    //deseja continuar [S/N]
    
