@@ -6,6 +6,7 @@ Var
 Inicio
 
      repita
+
           escreval()
           escreval(" Super Contadora ")
           escreval()
@@ -43,8 +44,6 @@ Inicio
                escreva("FIM")
                escreval()
                
-            outrocaso
-               escreval("Opcao invalida.")
           fimescolha
 
      ate(esc = 3)
