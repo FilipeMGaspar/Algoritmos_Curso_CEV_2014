@@ -1,12 +1,14 @@
 Algoritmo "escolhendopessoas"
 
 Var
-  sexo, corCabelo : caracter
+  sexo, corCabelo, resp : caracter
   idade, selCor : inteiro
 
 
 Inicio
 
+ repita
+  limpatela
       escreval()
       escreval("*************************")
       escreval("|  SELECTOR DE PESSOAS  |")
@@ -33,20 +35,26 @@ Inicio
         escreva("Selecione uma opcao: ")
         leia(selCor)
       ate((selCor = 1) ou (selCor = 2) ou (selCor = 3) ou (selCor = 4))
-     escreva(selCor)
-      escolha(selCor)
-          caso1
-             corCabelo <- "Preto"
-          caso2
-             corCabelo <- "Castanho"
-          caso3
-             corCabelo <- "Loiro"
-          caso4
-            corCabelo <- "Ruivo"
-        fimescolha
-      escreva("Voce e do sexo ", sexo, " tem ", idade, " anos. Seu cabelo e ", corCabelo)
-   
-   //deseja continuar [S/N]
+      se (selCor = 1)entao
+        corCabelo <- "Preto"
+      senao
+         se (selCor = 2)entao
+            corCabelo <- "Castanho"
+         senao
+            se (selCor = 3)entao
+               corCabelo <- "Loiro"
+            senao
+               corCabelo <- "Ruivo"
+            fimse
+         fimse
+      fimse
+
+      escreva("Voce e do sexo ", sexo, " tem ", idade, " anos. De Cabelo ", corCabelo)
+   escreval()
+   escreva("Deseja continuar [S/N] ")
+   leia(resp)
+ ate((resp = "n") ou (resp = "N"))
+
    
    //Mostra
 //   Homens com mais de 18 anos e  cabelo castanho
