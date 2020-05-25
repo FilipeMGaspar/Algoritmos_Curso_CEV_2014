@@ -48,15 +48,17 @@ Inicio
             fimse
          fimse
       fimse
-
-      escreva("Voce e do sexo ", sexo, " tem ", idade, " anos. De Cabelo ", corCabelo)
+      
    escreval()
    escreva("Deseja continuar [S/N] ")
    leia(resp)
  ate((resp = "n") ou (resp = "N"))
 
+ escreval()
+ escreval("Homens com mais de 18 anos e cabelo castanho : ")
+ escreval("Mulheres entre 25 e 30 anos loiras: ")
    
-   //Mostra
+//Mostra
 //   Homens com mais de 18 anos e  cabelo castanho
 
 // Mulheres entre 25 e 30 anos loiras
