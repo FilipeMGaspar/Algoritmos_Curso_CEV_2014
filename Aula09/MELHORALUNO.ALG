@@ -1,8 +1,9 @@
 Algoritmo "melhoraluno"
 
 Var
-  nome : caracter
+  nome, NomeDmAluno : caracter
   numAlunos, conta : inteiro
+  nota, maiorNota: real
 Inicio
       conta <- 1
       escreval()
@@ -19,17 +20,19 @@ Inicio
          escreva("> Nome: ")
          leia(nome)
          escreva("> Nota: ")
-         leia()
+         leia(nota)
+
+         se (nota > maiorNota) entao
+            maiorNota <- nota
+            NomeDmAluno <- nome
+         fimse
+         
          conta <- conta + 1
       fimenquanto
-
-//
-//Quantidade de alunos
-
-// pede nome e nota
-//pede a nota
-//
-
-//Mostra qual é nome e nota do melhor aluno
+      escreval()
+      escreval("A melhor nota da Turma: ")
+      escreval(" ...: Nome: ",NomeDmAluno)
+      escreva(" ...: Nota: ",maiorNota," valores")
+      escreval()
 
 Fimalgoritmo
