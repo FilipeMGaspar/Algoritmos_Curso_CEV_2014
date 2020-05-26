@@ -1,11 +1,15 @@
 Algoritmo "AnalisaValores"
 
 Var
-
-
+  conta: inteiro
+  num: real
 
 Inicio
-   //digita 5 valores
+
+   para conta <- 1 ate 5 passo 1 faca
+      escreva("Digite o ",conta,"o. valor: ")
+      leia(num)
+   fimpara
    
    //soma todos
    
