@@ -13,7 +13,6 @@ Var
     escreval("Maior Peso ate agora ", mai, "Kg")
     escreval("--------------------------------")
     escreval()
-
   fimprocedimento
 
 Inicio
