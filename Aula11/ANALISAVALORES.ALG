@@ -2,13 +2,15 @@ Algoritmo "AnalisaValores"
 
 Var
   conta, contaDivP5, nrdNulos: inteiro
-  num, soma, media: real
+  num, soma, media, somaNrPares: real
 
 Inicio
 
    soma <- 0
    media <- 0
    nrdNulos <- 0
+   somaNrPares <- 0
+   
    para conta <- 1 ate 5 passo 1 faca
       escreva("Digite o ",conta,"o. valor: ")
       leia(num)
@@ -21,6 +23,10 @@ Inicio
       se (num = 0) entao
           nrdNulos <- nrdNulos + 1
       fimse
+      
+      se (num % 2 = 0) entao
+          somaNrPares<-somaNrPares+num
+      fimse
    fimpara
    
    media <- soma /5
@@ -29,9 +35,7 @@ Inicio
    escreval("A media dos valores digitados foi: ", media:6:2)
    escreval("Quantidade de numeros divisiveis por 5 : ", contaDivP5)
    escreval("Quantidade de numeros nulos: ", nrdNulos)
-   
-   
-   //soma dos numero pares
-
+   escreval("Soma dos Numeros PARES: ", somaNrPares)
+   escreval()
 
 Fimalgoritmo
