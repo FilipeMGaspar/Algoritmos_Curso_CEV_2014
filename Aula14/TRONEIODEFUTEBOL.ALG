@@ -2,8 +2,8 @@ Algoritmo "TroneiodeFutebol"
 
 Var
   equipas: vetor[1..3] de caracter
-  jogos: vetor[1..6] de caracter
   i, j: inteiro
+  jogos: vetor[1..6] de caracter
 
 Inicio
   escreval()
@@ -27,6 +27,20 @@ Inicio
   escreval()
   escreval("Jogos a Disputar")
   escreval("----------------")
+
+
+  para i<-1 ate 3 faca
+      escreva(equipas[i], " X ")
+      para j <- 1 ate 3 faca
+      se (equipas[i] <> equipas[j]) entao
+        escreva(" ", equipas[j])
+        escreval()
+        escreva(equipas[i], " VS ")
+      fimse
+      fimpara
+  fimpara
+
+
 
   //criar as combinações esntre as 3 equipas de futebol
   // 1 2
