@@ -3,9 +3,11 @@ Algoritmo "CorrigindoProvas"
 Var
    alunosNome: vetor[1..3] de caracter
    respQuestoes: vetor[1..5] de caracter
-   avalAlunos: vetor[1..3] de inteiro
+   avalAlunos: vetor[1..3] de real
    resp: caracter
    i, j: inteiro
+   media, soma: real
+   
 
 Inicio
 
@@ -45,25 +47,12 @@ Inicio
     escreval("Avalicao Final")
     escreval("--------------")
     escreval()
+    soma <- 0
     para i <-1 ate 3 faca
        escreval(alunosNome[i]:10,avalAlunos[i]:4)
+       soma <- soma +  avalAlunos[i]
     fimpara
-
-   //passo2 regista os alunos  e as respostas dadas para 3 alunos
-   //
-   // aluno 1
-   // nome:
-   //
-   // Respostas dadas
-   //
-   //Questao 1: a /b /c /d
-   //
-   //
-   // Mostra
-   //
-   //  Notas finais
-   //
-   //  Nome     e nota do teste 0 ou .. 4 ou .. 8 ou ....
+    media <- soma / 3
    
    //
    //Mostra no final a media da turma
