@@ -11,7 +11,6 @@ Var
 
 Inicio
 
-   // Registar 5 questoes com valor de 2 pontos
     escreval()
     escreval("Registo das Respostas")
     escreval("---------------------")
@@ -55,7 +54,6 @@ Inicio
     media <- soma / 3
     escreval()
     escreval("A media das notas da turma foi de ", media:4:2," valores")
-   //
-   //Mostra no final a media da turma
+    escreval()
 
 Fimalgoritmo
