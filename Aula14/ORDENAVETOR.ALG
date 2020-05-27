@@ -2,7 +2,7 @@ Algoritmo "OrdenaVetor"
 
 Var
   vet: vetor[1..4] de inteiro
-  i, j: inteiro
+  i, j, aux: inteiro
 
 
 Inicio
@@ -11,6 +11,19 @@ Inicio
        leia(vet[i])
     fimpara
 
+    para i <- 1 ate 3 faca
+        para j <- i+1 ate 4 faca
+           se (vet[i] > vet[j]) entao
+              aux <- vet[i]
+              vet[i] <- vet[j]
+              vet[j] <- aux
+           fimse
+        fimpara
+    fimpara
+    escreval()
+    para i<-1 ate 4 faca
+       escreva("{", vet[i],"}")
+    fimpara
 
 
 Fimalgoritmo
