@@ -3,7 +3,6 @@ Algoritmo "TroneiodeFutebol"
 Var
   equipas: vetor[1..3] de caracter
   i, j: inteiro
-  jogos: vetor[1..6] de caracter
 
 Inicio
   escreval()
