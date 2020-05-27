@@ -30,12 +30,10 @@ Inicio
 
 
   para i<-1 ate 3 faca
-      escreva(equipas[i], " X ")
       para j <- 1 ate 3 faca
       se (equipas[i] <> equipas[j]) entao
-        escreva(" ", equipas[j])
+        escreva(equipas[i], " X ", equipas[j])
         escreval()
-        escreva(equipas[i], " VS ")
       fimse
       fimpara
   fimpara
