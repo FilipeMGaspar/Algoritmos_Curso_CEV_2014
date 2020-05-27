@@ -53,7 +53,8 @@ Inicio
        soma <- soma +  avalAlunos[i]
     fimpara
     media <- soma / 3
-   
+    escreval()
+    escreval("A media das notas da turma foi de ", media:4:2," valores")
    //
    //Mostra no final a media da turma
 
