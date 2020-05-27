@@ -31,7 +31,7 @@ Inicio
        escreval("-------------------------------")
        escreval(" Aluno ", i)
        escreval("Nome           Media")
-       escreva(nome[i]:15, media[i])
+       escreva(nome[i]:15, media[i]:4:2)
        escreva()
        escreval()
    fimpara
