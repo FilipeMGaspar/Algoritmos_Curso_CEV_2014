@@ -11,7 +11,7 @@ Inicio
   para c <- 1 ate 10 faca
      escreva("Digite o seu nome: ")
      leia(nome)
-     se (copia(maiusc(nome)), 1, 1) = "C" entao
+     se (copia(maiusc(nome), 1, 1) = "C") entao
         tot <- tot +1
         soC[tot] <- nome
      fimse
@@ -20,7 +20,7 @@ Inicio
   limpatela
   escreval("Listagem final")
   escreval("--------------")
-  para c <- ate tot faca
+  para c <- 1 ate tot faca
      escreval(soC[c])
   fimpara
 
