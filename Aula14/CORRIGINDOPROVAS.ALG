@@ -18,7 +18,14 @@ Inicio
     fimpara
     
     limpatela
-    
+    escreval()
+    para i<- 1 ate 3 faca
+       escreval("Aluno ",i)
+       escreval("---------------")
+       escreva("..: Nome: ")
+       leia(alunosNome[i])
+       escreval()
+    fimpara
     
 
    //passo2 regista os alunos  e as respostas dadas para 3 alunos
