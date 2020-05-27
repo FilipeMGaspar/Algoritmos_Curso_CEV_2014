@@ -19,6 +19,9 @@ Inicio
         fimpara
        escreval()
        escreval()
+       escreva("Lugar a Reservar B ")
+       leia(resLugar)
+       escreval()
        escreva("Deseja Reservar mais Algum lugar? [S/N] ")
        leia(resp)
      ate((resp="n") ou (resp="N"))
