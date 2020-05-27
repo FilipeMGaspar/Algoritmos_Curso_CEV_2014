@@ -6,15 +6,14 @@ Var
 
 Inicio
    totPar <- 0
-   
-   para c <-1 ate 7 faca
-     escreva("Digite o ",c,"o. valor: ")
-     leia(Vpares[c])
+
+   para c <- 1 ate 7 faca
      se (Vpares[c]%2 = 0) entao
+        escreval("Valor Par ",Vpares[c]," Na posicao ", c)
         totPar <- totPar +1
      fimse
    fimpara
-   escreval()
+    escreval()
    escreva("O total de numeros pares foi de ", totPar)
-
+   
 Fimalgoritmo
