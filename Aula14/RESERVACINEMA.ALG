@@ -5,42 +5,36 @@ Var
   i: inteiro
   resp: caracter
   resLugar: inteiro
+
 Inicio
 
+     repita
        limpatela
        escreval()
        escreval("Lugares disponiveis")
        escreval("...................")
        escreval()
         para i <- 1 ate 10 faca
-           filaB[i] <- copia("B",i)
-           escreva("[",filaB[i],"]")
+          se (filaB[i]="") entao
+             escreva("[B",i,"]")
+           senao
+              escreva("[ RES ]")
+          fimse
         fimpara
+        escreval()
+        escreval()
+        escreva("Reservar Cadeira: B")
+        leia(resLugar)
+        se (filaB[resLugar]="") entao
+            filaB[resLugar] <- "X"
+            escreval("Cadeira B", resLugar, " RESERVADA")
+         senao
+             escreval("ERRO: Lugar Ocupado")
+        fimse
+        escreval()
+        escreva("Deseja reservar outro lugar? [S/N] ")
+        leia(resp)
+     ate((resp="n") ou (resp="N"))
 
-
-
-       repita
-         escreval()
-         escreva("Lugar a Reservar B ")
-         leia(resLugar)
-         escreval()
-         escreva("Deseja Reservar mais Algum lugar? [S/N] ")
-         leia(resp)
-       ate((resp="n") ou (resp="N"))
-
- //reservar lugar na fila b com 10 cadeiras
-   
- // no iniciao mostra todos os lugares disponiveis
-   
- //  [B 1]..[B 5]..[B 8]..[B 10]
- 
- // Questionando se deseja reservar outra cadeira [s/n]
- 
- // Mostrando a cadeira como reser
- 
- // verifica o lugar se está ocupado ou não
- 
- //Quando selecionado não mostra as cadeiras ocupadas
- 
 
 Fimalgoritmo
