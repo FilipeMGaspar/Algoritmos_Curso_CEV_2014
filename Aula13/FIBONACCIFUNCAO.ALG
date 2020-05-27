@@ -3,22 +3,23 @@ Algoritmo "Fibonaccifuncao"
 Var
     c, t1, t2, t3: inteiro
 
-    procedimento ProcimoFibonacci(var a, b: inteiro)
+    funcao ProcimoFibonacci(var a, b: inteiro):inteiro
       var c: inteiro
       inicio
         c := a + b
-        escreva(c)
         a := b
         b := c
-    fimprocedimento
+        retorne c
+    fimfuncao
 
 Inicio
    t1 <- 0
-   escreva(t1)
+   escreval(t1)
    t2<-1
-   escreva(t2)
+   escreval(t2)
    para c := 3 ate 10 faca
-        ProcimoFibonacci(t1, t2)
+       t3 <- ProcimoFibonacci(t1, t2)
+       escreval(t3)
    fimpara
 
 Fimalgoritmo
