@@ -21,14 +21,13 @@ Inicio
   escreval("------------------")
   escreval()
   para i<-1 ate 3 faca
-     escreval("..: ",equipas[i])
+     escreva(" | ",equipas[i], " | ")
   fimpara
-  
+  escreval()
   escreval()
   escreval("Jogos a Disputar")
   escreval("----------------")
-
-
+  escreval()
   para i<-1 ate 3 faca
       para j <- 1 ate 3 faca
       se (equipas[i] <> equipas[j]) entao
@@ -38,14 +37,5 @@ Inicio
       fimpara
   fimpara
 
-
-
-  //criar as combinações esntre as 3 equipas de futebol
-  // 1 2
-  // 1 3
-  // 2 1
-  // 2 3
-  // 3 1
-  // 3 2
 
 Fimalgoritmo
