@@ -28,10 +28,11 @@ Inicio
    escreval("Listagem de Alunos")
 
    para i<-1 ate 4 faca
-       escreval("------------------")
+       escreval("-------------------------------")
        escreval(" Aluno ", i)
-       escreval("..: Nome: ", nome[i])
-       escreval("..: Media: ", media[i])
+       escreval("Nome           Media")
+       escreva(nome[i]:15, media[i])
+       escreva()
        escreval()
    fimpara
 
