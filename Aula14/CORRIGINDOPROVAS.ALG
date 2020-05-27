@@ -3,7 +3,9 @@ Algoritmo "CorrigindoProvas"
 Var
    alunosNome: vetor[1..3] de caracter
    respQuestoes: vetor[1..5] de caracter
-   i: inteiro
+   avalAlunos: vetor[1..3] de inteiro
+   resp: caracter
+   i, j: inteiro
 
 Inicio
 
@@ -13,7 +15,7 @@ Inicio
     escreval("---------------------")
     escreval()
     para i <- 1 ate 5 faca
-       escreva("Quetao ",i,": ")
+       escreva("Questao ",i,": ")
        leia(respQuestoes[i])
     fimpara
     
@@ -25,8 +27,27 @@ Inicio
        escreva("..: Nome: ")
        leia(alunosNome[i])
        escreval()
+       escreval("Respostas aceites")
+       escreval("a - b - c -d - e")
+       escreval()
+       para j <- 1 ate 5 faca
+           escreva("Questao ",j,": ")
+           leia(resp)
+           se (respQuestoes[j] = resp) entao
+               avalAlunos[i] <- avalAlunos[i] + 2
+           fimse
+       fimpara
+       escreval()
     fimpara
-    
+
+    limpatela
+    escreval()
+    escreval("Avalicao Final")
+    escreval("--------------")
+    escreval()
+    para i <-1 ate 3 faca
+       escreval(alunosNome[i]:10,avalAlunos[i]:4)
+    fimpara
 
    //passo2 regista os alunos  e as respostas dadas para 3 alunos
    //
