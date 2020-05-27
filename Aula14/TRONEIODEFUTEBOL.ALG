@@ -29,10 +29,10 @@ Inicio
   escreval()
   para i<-1 ate 3 faca
       para j <- 1 ate 3 faca
-      se (equipas[i] <> equipas[j]) entao
-        escreva(equipas[i], " X ", equipas[j])
-        escreval()
-      fimse
+           se (equipas[i] <> equipas[j]) entao
+              escreva(equipas[i], " X ", equipas[j])
+              escreval()
+           fimse
       fimpara
   fimpara
 
