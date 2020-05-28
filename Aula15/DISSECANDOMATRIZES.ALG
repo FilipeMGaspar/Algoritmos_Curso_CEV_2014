@@ -23,7 +23,7 @@ Var
   fimprocedimento
   
   procedimento mostraMatriz(opc: caracter)
-   var t, aux, tst: inteiro
+   var t: inteiro
     inicio
          
         se(maiusc(opc)="A") entao
@@ -56,9 +56,8 @@ Var
                  escreval("..: Triangulo Superior :..")
                  escreval("--------------------------")
                  escreval()
-                 para l <- 1 ate 4 faca
-                   para c <-1 ate 4 faca
-                      escreva(Matr[l,l]:4)
+                 para l <- 1 ate 3 faca
+                      escreva(Matr[l,]:4)
                    fimpara
                   escreval()
                  fimpara
