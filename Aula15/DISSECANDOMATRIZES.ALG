@@ -1,10 +1,36 @@
 Algoritmo "DissecandoMatrizes"
 
 Var
-
- // Matriz de 4 por 4
+  Matr: vetor[1..4, 1..4] de inteiro
+  l, c: inteiro
+  procedimento menu()
+    inicio
+       escreval()
+       Escreval("|----------------------|")
+       escreval("|..:     MENU       :..|")
+       Escreval("|----------------------|")
+       escreval()
+       escreval("Selecione uma opcao: ")
+       escreval("[ 1 ] Mostrar a Matriz")
+       escreval("[ 5 ] SAIR")
+  fimprocedimento
 
 Inicio
+
+   escreval()
+   escreval("----------------------------")
+   escreval("..: Preenchendo a Matriz :..")
+   escreval("----------------------------")
+   escreval()
+   para l <- 1 ate 4 faca
+      para c <- 1 ate 4 faca
+         escreva("Digite o valor para a posicao [",l,",",c,"]: ")
+         leia(Matr[l, c])
+      fimpara
+   fimpara
+   
+   menu()
+   
   //O utilizador pode escolher
   
   // exibir toda a matriz
