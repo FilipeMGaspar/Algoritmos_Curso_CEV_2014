@@ -15,5 +15,12 @@ Inicio
        fimpara
    fimpara
 
+   escreval()
+   para i <- 1 ate 3 faca
+     para j <- 1 ate 3 faca
+       escreva(mID[i, j]:4)
+     fimpara
+     escreval()
+   fimpara
 
 Fimalgoritmo
