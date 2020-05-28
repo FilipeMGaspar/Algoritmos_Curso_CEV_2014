@@ -57,9 +57,11 @@ Var
                  escreval("--------------------------")
                  escreval()
                  para l <- 1 ate 3 faca
-                      t <- l+1
-                      escreva(Matr[l, t]:4)
-                      escreval()
+                     t <- l+1
+                     para c <- t ate 4 faca
+                        escreva(Matr[l, c]:4)
+                     fimpara
+                     escreval()
                  fimpara
              fimse
            fimse
