@@ -72,8 +72,11 @@ Var
                  escreval("..: Triangulo Inferior :..")
                  escreval("--------------------------")
                  escreval()
-                 para l <- 1 ate 3 faca
-                    escreva(Matr[l, c]:4)
+                 para l <- 2 ate 4 faca
+                    escreval()
+                    para c <- 1 ate l-1 faca
+                       escreva(Matr[l, c]:4)
+                    fimpara
                  fimpara
                fimse
              fimse
