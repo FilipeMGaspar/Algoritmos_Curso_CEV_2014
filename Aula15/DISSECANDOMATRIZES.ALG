@@ -23,9 +23,9 @@ Var
   fimprocedimento
   
   procedimento mostraMatriz(opc: caracter)
-   var t: inteiro
+   var t, aux, tst: inteiro
     inicio
-    
+         
         se(maiusc(opc)="A") entao
           escreval()
           escreval("-----------------------")
@@ -57,12 +57,10 @@ Var
                  escreval("--------------------------")
                  escreval()
                  para l <- 1 ate 4 faca
-                   para c <- 1 ate 4 faca
-                        se (l < c) entao
-                           escreva(Matr[l,l]:4)
-                       fimse
+                   para c <-1 ate 4 faca
+                      escreva(Matr[l,l]:4)
                    fimpara
-                    escreval()
+                  escreval()
                  fimpara
              fimse
            fimse
