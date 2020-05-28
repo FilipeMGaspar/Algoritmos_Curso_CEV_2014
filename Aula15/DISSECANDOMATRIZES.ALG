@@ -2,7 +2,7 @@ Algoritmo "DissecandoMatrizes"
 
 Var
   Matr: vetor[1..4, 1..4] de inteiro
-  l, c: inteiro
+  l, c, valResp: inteiro
   resp: caracter
   
   procedimento menu()
@@ -19,7 +19,7 @@ Var
        escreval("[ D ] Mostrar o Triangulo Inferior")
        escreval("[ S ] SAIR")
   fimprocedimento
-
+  
 Inicio
 
    escreval()
@@ -35,13 +35,13 @@ Inicio
    fimpara
    
 
-   repita
-   limpatela
-      menu()
-      escreval()
-      escreva("Opcao: " )
-      leia(resp)
-   ate (maiusc(resp)="S")
+
+
+   // a = 65
+   //b = 66
+   //c = 67
+   //d = 68
+   
    
   //O utilizador pode escolher
   
