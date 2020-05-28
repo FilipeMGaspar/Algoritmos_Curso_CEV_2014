@@ -57,16 +57,19 @@ Var
                  escreval("--------------------------")
                  escreval()
                  para l <- 1 ate 3 faca
-                     t <- l+1
-                     para c <- t ate 4 faca
+                     escreva("    ")
+                     para c <- l +1 ate 4 faca
                         escreva(Matr[l, c]:4)
                      fimpara
                      escreval()
+                     para t <- 1 ate l faca
+                          escreva("    ")
+                     fimpara
                  fimpara
               senao
                se (maiusc(opc)="D") entao
                  escreval("--------------------------")
-                 escreval("..: Triangulo inferior :..")
+                 escreval("..: Triangulo Inferior :..")
                  escreval("--------------------------")
                  escreval()
                  para l <- 1 ate 3 faca
