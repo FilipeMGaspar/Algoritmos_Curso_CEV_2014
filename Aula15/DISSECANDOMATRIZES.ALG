@@ -63,6 +63,16 @@ Var
                      fimpara
                      escreval()
                  fimpara
+              senao
+               se (maiusc(opc)="D") entao
+                 escreval("--------------------------")
+                 escreval("..: Triangulo inferior :..")
+                 escreval("--------------------------")
+                 escreval()
+                 para l <- 1 ate 3 faca
+                    escreva(Matr[l, c]:4)
+                 fimpara
+               fimse
              fimse
            fimse
         fimse
