@@ -23,14 +23,36 @@ Var
   fimprocedimento
   
   procedimento mostraMatriz(opc: caracter)
+   var
+    espac: inteiro
+
     inicio
+      espac <- 0
+    
         se(maiusc(opc)="A") entao
+          escreval()
+          escreval("-----------------------")
+          escreval("..: Matriz Completa :..")
+          escreval("-----------------------")
+          escreval()
            para l <- 1 ate 4 faca
               para c <- 1 ate 4 faca
                  escreva(Matr[l, c]:4)
               fimpara
              escreval()
            fimpara
+         senao
+           se(maiusc(opc)="B") entao
+              para l <- 1 ate 4 faca
+                 para c <- 1 ate 4 faca
+                    se (l = c) entao
+                      escreva(Matr[l, c]:4)
+                      espac <- l
+                    fimse
+                 fimpara
+                 escreval()
+              fimpara
+           fimse
         fimse
   fimprocedimento
 
