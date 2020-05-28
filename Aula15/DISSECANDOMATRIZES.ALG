@@ -50,6 +50,7 @@ Var
                    escreva("    ")
                  fimPara
               fimpara
+            senao
              se (maiusc(opc)="C") entao
                  escreval("--------------------------")
                  escreval("..: Triangulo Superior :..")
