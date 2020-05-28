@@ -23,11 +23,7 @@ Var
   fimprocedimento
   
   procedimento mostraMatriz(opc: caracter)
-   var
-    espac: inteiro
-
     inicio
-      espac <- 0
     
         se(maiusc(opc)="A") entao
           escreval()
@@ -43,11 +39,14 @@ Var
            fimpara
          senao
            se(maiusc(opc)="B") entao
+             escreval("--------------------------")
+             escreval("..: Diagonal Principal :..")
+             escreval("--------------------------")
+             escreval()
               para l <- 1 ate 4 faca
                  para c <- 1 ate 4 faca
                     se (l = c) entao
                       escreva(Matr[l, c]:4)
-                      espac <- l
                     fimse
                  fimpara
                  escreval()
