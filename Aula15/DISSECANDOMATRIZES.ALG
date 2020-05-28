@@ -50,6 +50,12 @@ Var
                    Escreva("    ")
                  fimPara
               fimpara
+             se (maiusc(opc)="C") entao
+                 escreval("--------------------------")
+                 escreval("..: Triangulo Superior :..")
+                 escreval("--------------------------")
+                 escreval()
+             fimse
            fimse
         fimse
   fimprocedimento
