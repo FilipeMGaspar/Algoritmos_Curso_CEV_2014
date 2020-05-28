@@ -2,7 +2,7 @@ Algoritmo "DissecandoMatrizes"
 
 Var
 
- // Matriz de 4 po 4
+ // Matriz de 4 por 4
 
 Inicio
   //O utilizador pode escolher
