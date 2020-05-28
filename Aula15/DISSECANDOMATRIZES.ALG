@@ -45,9 +45,9 @@ Var
              escreval("--------------------------")
              escreval()
               para l <- 1 ate 4 faca
-                EscrevaL(Matr[l,l]:4)
+                escrevaL(Matr[l,l]:4)
                  Para t <- 1 ate l faca
-                   Escreva("    ")
+                   escreva("    ")
                  fimPara
               fimpara
              se (maiusc(opc)="C") entao
@@ -55,6 +55,14 @@ Var
                  escreval("..: Triangulo Superior :..")
                  escreval("--------------------------")
                  escreval()
+                 para l <- 1 ate 4 faca
+                   para c <- 1 ate 4 faca
+                        se (l < c) entao
+                           escreva(Matr[l,l]:4)
+                       fimse
+                   fimpara
+                    escreval()
+                 fimpara
              fimse
            fimse
         fimse
@@ -86,10 +94,7 @@ Inicio
    
   //O utilizador pode escolher
   
-  // exibir toda a matriz
-  //
-  //exibrir a diagonal principal  1:1 2:2 3:3 e 4:4
-  
+
   //Triangulo superior 1:2 1:3 1:4 2:3 2:4 3:4
   
   //triangulo inferior 2:1 3:1 3:2 4:1 4:2 4:3
