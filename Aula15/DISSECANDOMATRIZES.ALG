@@ -7,7 +7,6 @@ Var
   
   procedimento menu()
     inicio
-       //limpatela
        escreval()
        Escreval("|----------------------|")
        escreval("|..:     MENU       :..|")
@@ -105,17 +104,6 @@ Inicio
      leia(resp)
      mostraMatriz(resp)
    ate ((resp = "s") ou (resp="S"))
-
-   
-   
-  //O utilizador pode escolher
-  
-
-  //Triangulo superior 1:2 1:3 1:4 2:3 2:4 3:4
-  
-  //triangulo inferior 2:1 3:1 3:2 4:1 4:2 4:3
-  
-  
 
 
 Fimalgoritmo
