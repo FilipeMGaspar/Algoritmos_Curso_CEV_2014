@@ -8,7 +8,7 @@ Inicio
    
    //Controi o tabuleiro
    
-   //Joga em posição, nao deixa repetir a jogada
+   //Joga em posicao, nao deixa repetir a jogada
    
    //verifica quem ganha
 
