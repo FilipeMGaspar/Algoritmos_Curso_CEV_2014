@@ -77,6 +77,7 @@ Var
                        escreva(Matr[l, c]:4)
                     fimpara
                  fimpara
+                 escreval()
                fimse
              fimse
            fimse
