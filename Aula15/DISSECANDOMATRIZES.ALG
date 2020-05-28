@@ -2,24 +2,39 @@ Algoritmo "DissecandoMatrizes"
 
 Var
   Matr: vetor[1..4, 1..4] de inteiro
-  l, c, valResp: inteiro
+  l, c: inteiro
   resp: caracter
   
   procedimento menu()
     inicio
+       //limpatela
        escreval()
        Escreval("|----------------------|")
        escreval("|..:     MENU       :..|")
        Escreval("|----------------------|")
        escreval()
-       escreval("Selecione uma opcao: ")
        escreval("[ A ] Mostrar toda a Matriz")
        escreval("[ B ] Mostrar a Diagonal da Matriz")
        escreval("[ C ] Mostrar o Triangulo Superior")
        escreval("[ D ] Mostrar o Triangulo Inferior")
        escreval("[ S ] SAIR")
+       escreval()
+       escreva("..: Selecione uma opcao: ")
   fimprocedimento
   
+  procedimento mostraMatriz(opc: caracter)
+    inicio
+        se(maiusc(opc)="A") entao
+           para l <- 1 ate 4 faca
+              para c <- 1 ate 4 faca
+                 escreva(Matr[l, c]:4)
+              fimpara
+             escreval()
+           fimpara
+        fimse
+  fimprocedimento
+
+
 Inicio
 
    escreval()
@@ -34,13 +49,13 @@ Inicio
       fimpara
    fimpara
    
+   limpatela
+   repita
+     menu()
+     leia(resp)
+     mostraMatriz(resp)
+   ate ((resp = "s") ou (resp="S"))
 
-
-
-   // a = 65
-   //b = 66
-   //c = 67
-   //d = 68
    
    
   //O utilizador pode escolher
